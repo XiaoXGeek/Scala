@@ -10,7 +10,10 @@ object TestMap {
     println(m1)
     
     m1.foreach(a=>{
-      
+      println(a+" "+a._1+" "+a._2)
     })
+    
+    m1.keys.foreach(b=>println(m1(b)));
+    println(m1)
   }
 }
